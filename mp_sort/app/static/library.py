@@ -1,6 +1,7 @@
 from org.transcrypt.stubs.browser import *
 import random
 
+# 原始代码：https://github.com/Data-Driven-World/d2w_mini_projects/blob/master/mp_sort/app/static/library.py
 def gen_random_int(number, seed):
 	pass
 
@@ -12,7 +13,7 @@ def generate():
 	# store it to the variable array
 	pass
 
-	array = None
+	array = gen_random_int(number,seed)
 	# convert the items into one single string 
 	# the number should be separated by a comma
 	# and a full stop should end the string.
