@@ -17,5 +17,8 @@ bootstrap = Bootstrap5(application)
 # set voc=False if you run on local computer
 application.wsgi_app = PrefixMiddleware(application.wsgi_app, voc=False)
 
+# set voc=True if you run on Vocareum
+# application.wsgi_app = PrefixMiddleware(application.wsgi_app, voc=True)
+
 
 from app import routes, models
